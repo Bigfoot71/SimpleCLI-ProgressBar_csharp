@@ -22,7 +22,8 @@ namespace ProgressBar
     class ProgressBar
     {
         
-        public string Title, BarString;
+        public string Title;
+        private string BarString;
         private char CharFull, CharEmpty;
         private int EndValue;
 
