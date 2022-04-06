@@ -84,7 +84,7 @@ namespace ProgressBar
                 }
             }
 
-            for (int i=0; i<noLoadSize-1; ++i)
+            for (int i=1; i<noLoadSize; ++i)
             {
                 BarString += CharEmpty;
             }
